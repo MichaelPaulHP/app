@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MrBlack" parent="AppNoActionBarTheme">
+        <item name="colorPrimaryDark">@color/primary_mr_black_dark</item>
+        <item name="colorPrimary">@color/primary_mr_black_dark</item>
+        <item name="android:colorForeground">@color/foreground_mr_black_light</item>
+        <item name="android:colorBackground">@color/primary_mr_black_dark</item>
+        <item name="android:textColorPrimary">@color/foreground_mr_black_light</item>
+        <item name="android:textColorPrimaryInverse">@color/foreground_inverse_mr_black_light</item>
+        <item name="android:textColorSecondary">@color/foreground_second_mr_black_dark</item>
+        <item name="android:navigationBarColor">@color/primary_mr_black_dark</item>
+        <item name="android:statusBarColor">@color/primary_mr_black_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/foreground_inverse_mr_black_light</item>
+        <item name="android:windowBackground">@color/foreground_inverse_mr_black_light</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212223</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="primary_mr_black_dark">#222222</color>
+    <color name="primary_dark_material_light">#222222</color>
+    <color name="primary_mr_black_light">#dddddd</color>
+    <color name="foreground_mr_black_dark">#dddddd</color>
+    <color name="background_mr_black_dark">#222222</color>
+    <color name="foreground_inversive_mr_black_dark">#bbbbbb</color>
+    <color name="primary_mr_black_black">#111111</color>
+    <color name="foreground_mr_black_light">#dddddd</color>
+    <color name="foreground_inverse_mr_black_light">#b71717</color>
+    <color name="foreground_second_mr_black_light">#333333</color>
+    <color name="foreground_second_mr_black_dark">#eeeeee</color>
+</resources>

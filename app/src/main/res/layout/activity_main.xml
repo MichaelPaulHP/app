@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.mrrobot.myapp.MainActivity">
+
+    <!--top-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:gravity="end"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:background="#222"
+            android:rotation="90"
+            android:text="Login"
+            android:textColor="#eee" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#222"
+            android:rotation="90"
+            android:text="Register"
+            android:textColor="#aaa" />
+    </LinearLayout>
+
+    <!--Mid-->
+
+
+    <LinearLayout
+        xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="fill"
+        android:background="#222"
+        android:orientation="vertical"
+        android:paddingLeft="50dp">
+
+        <!--
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+
+            android:text="EMAIL"
+
+            android:textColor="#aaa" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#009688"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="#aaa" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textColor="#aaa" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#aaa"
+            android:backgroundTint="#009688"/>
+             -->
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            mapbox:mapbox_cameraTargetLat="40.73581"
+            mapbox:mapbox_cameraTargetLng="-73.99155"
+            mapbox:mapbox_styleUrl="mapbox://styles/mapbox/dark-v9"
+            mapbox:mapbox_cameraZoom="11" />
+    </LinearLayout>
+
+
+
+
+    <!--Bot-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="bottom|right">
+
+
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:text="recordame    "
+            android:layout_marginRight="34dp"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:background="#009688"
+            android:textColor="#eee"
+            android:text="Login      ->" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
